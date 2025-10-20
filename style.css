@@ -1,0 +1,56 @@
+/* reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --color-bg: hsl(212, 45%, 89%);
+  --color-text: hsl(216, 15%, 48%);
+  --color-heading: hsl(218, 44%, 22%);
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.5rem;
+  background-color: var(--color-bg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 1.6rem 1.6rem;
+  border-radius: 2rem;
+  width: 300px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.QR-code {
+  border-radius: 1rem;
+  width: 270px;
+  margin-bottom: 2.4rem;
+}
+
+.heading {
+  max-width: 270px;
+  color: var(--color-heading);
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+.text {
+  max-width: 260px;
+  color: var(--color-text);
+  margin-bottom: 4rem;
+}
